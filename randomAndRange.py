@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[31]:
-
-
 from random import randint
 
 dice = [0]*7                # dice[0] = 0, dice[1] = 0, ... , dice[6] = 0
@@ -17,22 +11,3 @@ for i in range(100):
 
 for j in range(1,7):        # j = 1, 2, ... , 6    7為最後一個的後面一個, 並非 j
     print(dice[j])          # dice[0] = 0, 沒用到, 所以不需要顯示
-
-
-# In[9]:
-
-
-
-
-
-# In[17]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
