@@ -13,7 +13,7 @@
 >randomAndRange:  
 >>random中的randint() 及 range(10)--0 to 9 range(1, 5)--1 to 4  
   
->tryExceptAndOs_listdir:
->>以try和except來判定是否有讀到檔案
->>以os.listdir(指定文件or文件夾) 來返回路徑或名字列表
+>tryExceptAndOs_listdir:  
+>>以try和except來判定是否有讀到檔案  
+>>以os.listdir(指定文件or文件夾) 來返回路徑或名字列表  
   
