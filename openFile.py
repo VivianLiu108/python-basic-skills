@@ -44,3 +44,16 @@ for line in infile:        # line為string
                            #
                            #2 Today is Friday.
 infile.close()
+
+
+
+
+#換成用function
+def filesize(fn):
+  infile = open(fn, "r")
+  s = infile.read()
+  infile.close()
+  return len(s)
+
+fn = input("Filename?")
+print("File size = ", filesize(fn))
