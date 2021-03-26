@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
+#read()
 infile = open("doc.txt", "r") #開啟檔案doc.txt  r為讀檔案模式 (ex. with open("doc.txt", "r") as infile : print(infile.read)
 s = infile.read()             #This is a book. 讀取檔案所有內容
                               #Today is Friday.
@@ -13,6 +8,7 @@ print(len(s))                 #32
 
 sL = infile.readline()        #單行讀取
 infile.close()                #關閉檔案(因為檔案物件會佔用作業系統資源，且作業系統同一時間能開啟的檔案數量有限)
+
 #讀寫模式的型別有：
 # rU 或 Ua 以讀方式開啟, 同時提供通用換行符支援 (PEP 278)
 # w      以寫方式開啟，
@@ -28,9 +24,9 @@ infile.close()                #關閉檔案(因為檔案物件會佔用作業系
 # ab     以二進位制讀寫模式開啟 (參見 a  )
 
 
-# In[9]:
 
 
+#readline()
 infile = open("doc.txt", "r")
 sL = infile.readline()        #This is a book.單行讀取
 print(len(sL))                #16
@@ -38,7 +34,6 @@ print(len(sL.strip()))        #15  strip()刪掉結尾的'\n'
 infile.close()
 
 
-# In[17]:
 
 
 infile = open("doc.txt", "r")
@@ -49,10 +44,3 @@ for line in infile:        # line為string
                            #
                            #2 Today is Friday.
 infile.close()
-
-
-# In[ ]:
-
-
-
-
