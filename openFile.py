@@ -49,7 +49,7 @@ infile.close()
 
 
 #換成用function
-def filesize(fn):
+def filesize(fn):         #from 檔案 import filesize --可以先寫好再import進來
   infile = open(fn, "r")
   s = infile.read()
   infile.close()
