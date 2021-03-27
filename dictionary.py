@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
 amount = {}
 amount["apple"] = 5
 amount["banana"] = 6
@@ -25,22 +19,3 @@ print(nameList["a"] + " " + nameList["b"])
 #Bob
 #Cindy
 #Alice Bob
-
-
-# In[8]:
-
-
-
-
-
-# In[17]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
