@@ -21,6 +21,6 @@
 >>__init__(self, ...)的使用  
   
 >dictionary:  
->>dictionary功能的使用  
+>>dictionary功能的使用 及 用end = ""使不換行  
 >>ex. amount["apple"] = 5 --key : apple, value : 5  
   
