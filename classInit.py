@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 class Person:
     def __init__(self, name, height, weight):
         self.name = name
@@ -21,7 +15,7 @@ def main():
 main()
 
 
-# In[8]:
+
 
 
 class Student:
@@ -48,16 +42,3 @@ if __name__ == "__main__":
 #1 Alice boy 165 48
 #2 Bob girl 190 140
 #3 Daniel boy 190 140
-
-
-# In[17]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
