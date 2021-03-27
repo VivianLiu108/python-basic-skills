@@ -19,3 +19,6 @@ print(nameList["a"] + " " + nameList["b"])
 #Bob
 #Cindy
 #Alice Bob
+print(nameList["a"], end = "")
+print(nameList["b"])
+#AliceBob
