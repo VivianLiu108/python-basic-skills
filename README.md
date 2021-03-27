@@ -20,3 +20,7 @@
 >classInit:  
 >>__init__(self, ...)的使用  
   
+>dictionary:  
+>>dictionary功能的使用  
+>>ex. amount["apple"] = 5 --key : apple, value : 5  
+  
