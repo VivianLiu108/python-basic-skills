@@ -17,3 +17,6 @@
 >>以try和except來判定是否有讀到檔案  
 >>以os.listdir(指定文件or文件夾) 來返回路徑或名字列表  
   
+>classInit:  
+>>__init__(self, ...)的使用  
+  
